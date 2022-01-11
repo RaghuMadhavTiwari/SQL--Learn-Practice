@@ -1,0 +1,55 @@
+1. WHERE , AND, OR, NOT, IN
+
+2. ORDER BY, ASC, DESC
+
+3. IS NULL
+
+4. LIMIT - Retuens specified rows
+SELECT * FROM table
+ LIMIT start_limit, end_limit
+ 
+5. MIN, MAX, COUNT, AVG, SUM
+
+6. LIKE- Matches similar values rather than exact (case sensitive, so use ILIKE which is not case sensitive) , WILDCARDS
+SELECT * FROM table
+ WHERE "group" LIKE 'Snoop%'
+
+% wildcard can means any number and selection of characters
+- wildcard is used to substitue for a single character
+ 
+7. IN, BETWEEN(includes the bounds)
+
+8. JOINS
+
+9. Subqueries(most important)
+
+10. UNION ALL-joins allow you to combine two datasets side-by-side, but UNION allows you to stack one dataset on top of the other. Note that UNION only appends distinct values. More specifically, when you use UNION, the dataset is appended, and any rows in the appended table that are exactly identical to rows in the first table are dropped. If you'd like to append all the values from the second table, use UNION ALL
+
+11. GROUP BY
+
+12. HAVING -The WHERE clause won't work for filtering on aggregate columns, that's where the HAVING clause comes in:
+
+13. LEFT, RIGHT, MID, - To select a substring from a string
+SELECT LEFT(Name,5) FROM table
+
+SELECT MID(Name,3,5) FROM table
+
+14. CONCAT - Adds 2 or more expressions together
+SELECT CONCAT(col_name,"Name"," ",other_column) FROM table
+
+15. PARTITION BY, OVER
+
+16. LEAD,LAG
+
+17. RANK, DENSE_RANK, PERCENT_RANK
+
+18. ROW_NUMBER, CUME_DIST
+
+19. FIRST_VALUE, LAST_VALUE
+
+20. CASE
+
+21. CTEs
+
+
+
