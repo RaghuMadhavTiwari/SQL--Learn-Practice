@@ -1,4 +1,4 @@
-1. WHERE , AND, OR, NOT, IN
+'''1. WHERE , AND, OR, NOT, IN
 
 2. ORDER BY, ASC, DESC
 
@@ -37,9 +37,13 @@ SELECT MID(Name,3,5) FROM table
 14. CONCAT - Adds 2 or more expressions together
 SELECT CONCAT(col_name,"Name"," ",other_column) FROM table
 
-15. PARTITION BY, OVER
+15. PARTITION BY, OVER - used to partition rows of table into groups. 
+It is useful when we have to perform a calculation on individual rows of a group using other rows of that group.
+Window_function ( expression ) 
+       Over ( partition by expr [order_clause] [frame_clause] )
 
-16. LEAD,LAG
+16. LEAD,LAG - 
+[see this](https://www.sqlshack.com/sql-lag-function-overview-and-examples/)
 
 17. RANK, DENSE_RANK, PERCENT_RANK
 
@@ -51,5 +55,5 @@ SELECT CONCAT(col_name,"Name"," ",other_column) FROM table
 
 21. CTEs
 
-
+'''
 
