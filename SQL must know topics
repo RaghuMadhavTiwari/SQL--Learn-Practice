@@ -45,7 +45,8 @@ Window_function ( expression )
 16. LEAD,LAG - 
 [see this](https://www.sqlshack.com/sql-lag-function-overview-and-examples/)
 
-17. RANK, DENSE_RANK, PERCENT_RANK
+17. RANK, DENSE_RANK, PERCENT_RANK-
+https://www.sqlshack.com/overview-of-sql-rank-functions/
 
 18. ROW_NUMBER, CUME_DIST
 
