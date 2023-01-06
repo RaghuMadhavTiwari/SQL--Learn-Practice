@@ -1,1 +1,1 @@
-# SQL--Data-With-Danny
+# SQL--Learn & Practice
